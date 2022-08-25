@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class='container'>
+        <h2> ~ calculator ~</h2>
+        <h3>type the numbers</h2>
+            <div id='form-numbers'>
+                <input type='number' value='' class='inpt' id='number1'>
+                <input type='number' value='' class='inpt' id='number2'>
+            </div>
+
+            <h3>choose the operation</h2>
+                <div id='form-operation' class='form-control'>
+                    <select value='' name='' id='operation'>
+                        <option value=''>choose operation</option>
+                        <option value='add'>add</option>
+                        <option value='subtract'>subtract</option>
+                        <option value='multiply'>multiply</option>
+                        <option value='divide'>divide</option>
+                    </select>
+                </div>
+
+                <div id='result'>
+
+                    <h3>and the result will be...</h3>
+
+                    <button type='button' id='result-btn' class='btn'> = </button>
+                    <h3 id='view-result' class='result'></h3>
+                </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
